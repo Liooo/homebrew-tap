@@ -1,6 +1,6 @@
 cask "just-dictate" do
-  version "0.2.1"
-  sha256 "b71558f6d452f0bd477eb33224c0c8ce0b299eafc031d9cce9e34757ae4bb643"
+  version "0.3.0"
+  sha256 "cd96525cc4b720f78a2cf44ea1f3948070d3db0b2121ecbce81908aa46880e8f"
 
   url "https://github.com/Liooo/just-dictate/releases/download/v#{version}/Just-Dictate.zip"
   name "Just Dictate"
