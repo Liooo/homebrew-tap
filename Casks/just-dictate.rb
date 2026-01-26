@@ -8,4 +8,14 @@ cask "just-dictate" do
   homepage "https://github.com/Liooo/just-dictate"
 
   app "Just Dictate.app"
+
+  caveats <<~EOS
+    Just Dictate is not signed/notarized. macOS may show a security warning.
+
+    If you trust this app, you can install without quarantine:
+      brew install --cask --no-quarantine just-dictate
+
+    Or remove quarantine after install:
+      xattr -dr com.apple.quarantine /Applications/Just\ Dictate.app
+  EOS
 end
