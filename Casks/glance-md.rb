@@ -1,6 +1,6 @@
 cask "glance-md" do
   version "0.1.0"
-  sha256 "9ef73fc4713648c8108e6d111fe18d486655bdab9aebf5d7c170046742c1da08"
+  sha256 "8dac35453ac2197884f7447ffa80d027a4bd91f6078f0ef924d803007009cfbb"
 
   url "https://github.com/Liooo/glance.md/releases/download/v#{version}/Glance.md-#{version}.zip"
   name "Glance.md"
